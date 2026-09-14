@@ -33,6 +33,17 @@
   <dialog id="run-dialog" aria-labelledby="run-title"><div id="run-detail"></div></dialog>
   <div id="toast" role="status"></div>
   <noscript><p class="no-script">Enable JavaScript to calculate and explore your running history.</p></noscript>
-  <script type="module" src="./app.mjs"></script>
+  <script>
+    if (location.protocol === 'file:') {
+      document.getElementById('data-state').textContent = 'Open the live page to load your running history.';
+      document.getElementById('summary').innerHTML = '<div class="loading-state">Your running history is available online.<br><a class="button" href="https://onsummernight.github.io/gitrun/">Open your running log ↗</a></div>';
+      document.getElementById('import-open').hidden = true;
+    } else {
+      import('./app.mjs').catch(() => {
+        document.getElementById('data-state').textContent = 'The running journal could not load. Please refresh the page.';
+        document.getElementById('summary').textContent = 'Check your connection and try again.';
+      });
+    }
+  </script>
 </body>
 </html>
