@@ -1,0 +1,13 @@
+{
+  "name": "gitrun",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check dist/app.mjs && node --check dist/data.mjs && node --check dist/demo.mjs",
+    "import": "node scripts/import.mjs"
+  },
+  "engines": { "node": ">=22" }
+}

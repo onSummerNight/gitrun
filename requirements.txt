@@ -1,0 +1,12 @@
+# Isolated sync runtime; the website itself has no package dependencies.
+garminconnect==0.3.15
+cryptography==46.0.5
+curl_cffi==0.16.3
+requests==2.34.2
+ua-generator==2.1.5
+cffi==2.1.1
+pycparser==3.0
+certifi==2026.7.22
+charset-normalizer==3.5.1
+idna==3.19
+urllib3==2.7.0
