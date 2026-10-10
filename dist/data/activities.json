@@ -1,8 +1,30 @@
 {
   "version": 1,
   "source": "Garmin Connect",
-  "updatedAt": "2026-10-10T00:06:16.304955+00:00",
+  "updatedAt": "2026-10-10T08:40:28.665664+00:00",
   "activities": [
+    {
+      "id": "24669751949",
+      "date": "2026-10-10",
+      "title": "Bogor Running",
+      "type": "road",
+      "distanceKm": 13.9566,
+      "movingSeconds": 10769.0,
+      "elapsedSeconds": 16720.328125,
+      "elevationM": 538.0,
+      "descentM": 542.0,
+      "calories": 1858.0,
+      "averageHR": 153.0,
+      "maxHR": 190.0,
+      "cadence": 57.75,
+      "maxCadence": 239.0,
+      "steps": 18830.0,
+      "aerobicEffect": null,
+      "anaerobicEffect": null,
+      "averagePower": null,
+      "maxPower": null,
+      "bestPaceSeconds": 365.764
+    },
     {
       "id": "24625501533",
       "date": "2026-10-06",
