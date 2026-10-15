@@ -1,8 +1,30 @@
 {
   "version": 1,
   "source": "Garmin Connect",
-  "updatedAt": "2026-10-15T07:34:46.384491+00:00",
+  "updatedAt": "2026-10-15T13:32:50.403407+00:00",
   "activities": [
+    {
+      "id": "24732848233",
+      "date": "2026-10-15",
+      "title": "Jakarta Running",
+      "type": "road",
+      "distanceKm": 10.01515,
+      "movingSeconds": 5494.71,
+      "elapsedSeconds": 5696.14794921875,
+      "elevationM": 30.0,
+      "descentM": 43.0,
+      "calories": 776.0,
+      "averageHR": 154.0,
+      "maxHR": 177.0,
+      "cadence": 148.609375,
+      "maxCadence": 215.0,
+      "steps": 14152.0,
+      "aerobicEffect": null,
+      "anaerobicEffect": null,
+      "averagePower": null,
+      "maxPower": null,
+      "bestPaceSeconds": 401.445
+    },
     {
       "id": "24625501533",
       "date": "2026-10-06",
